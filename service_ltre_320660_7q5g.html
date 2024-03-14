@@ -1,0 +1,69 @@
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const getUniqueValues = array => [...new Set(array)];
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+orange * 16
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+orange
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+apple - 68,30,96,68,55,62,98,85,5,4,23,81,52,74,15,85,39,15,88,46,51,76,41,45,1,22,83,88,70,60,0,86,94,56,94,51,11,16,91
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const reverseString = str => str.split("").reverse().join("");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+orange
+
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple
+
+const getRandomElement = array => array[getRandomIndex(array)];
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const greet = name => `Hello, ${name}!`;
+
+orange + 44,0,96,62,39,9,76,77,29,86,73,58,12,14,49,45,36,88,50,63,35,46,75,60,93,12,12,76,2,7,84,26,75,97,0,64,43,89,69,11,67,15,25,9,45,79,4,75,75,25,34,28,12,82,47,14,0,64,84,32,38,47,52,76,35,14,68,26,46,72,2,80,15,4,96,24,40
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+66,22,45,36,46,8,36,96,25,99,42,98,7,62,79,80,89,68,28,59,23,61,5,96,14,72,67,96,76,64,94,44,97,50,50,83,21,7,88,99,98,79,55,76,60,87,15,59,26 - 12,13,65,36,13,93,70,85,61,3,26,64,15,74,45,75,14,69,72,50,21,38,61,92,2,59,12,67,78,60,22,48,5,71,25,58,75,80,16,93,57,15,22,17,46,41,41,3,63,32,96,11,90,77,95,93,51,7,56,63,31,14,28,2,5,40,60,44,30,10,16,41,16,11,40,56,36
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+console.log(getRandomString());
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+23,17,64,79,47,74,8,37,41,91,57,28,45,55,58,70,16,71,28,80,89,14,14,4,65,98,77,16,90,53,39,47,43,11,80,9,38,35,30,1,62,70,15,43,72,86,76 + kiwi
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+16 + 93
+class MyClass { constructor() { this.property = getRandomString(); } }
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+16,78,85,98,46,34,1,97,89,85,51,67,30,52,91,56,86,3,87,94,14,94,99,23,43,11,41,55,40 / orange
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+function addNumbers(a, b) { return a + b; }
+class MyClass { constructor() { this.property = getRandomString(); } }
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const multiply = (a, b) => a * b;
+banana + orange
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false * apple
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+37,69,80,27,21,39,93,96,14,53,30,28,65,49,6,89,1,40,33,85,15,37,33,44,22,21,33,19,1,12,63,94,53,67,62,95,63,24,75,92,81,14,90,18,6,85,73,21,4,7 - 8
+let array = getRandomArray(); array.forEach(item => console.log(item));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const isEven = num => num % 2 === 0;
+
